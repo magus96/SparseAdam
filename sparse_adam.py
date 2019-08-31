@@ -9,7 +9,7 @@ Original file is located at
 
 import math
 import torch
-from .optimizer import Optimizer
+from torch.optim.optimizer import Optimizer
 
 
 class SparseAdam(Optimizer):
